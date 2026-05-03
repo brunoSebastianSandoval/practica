@@ -82,7 +82,7 @@ public class CajeroService {
         // Creamos el objeto Transaccion para tener los datos ordenados.
         Transaccion t = new Transaccion(tipo, monto, desc, LocalDateTime.now());
         
-        // Usamos StringBuilder como pedía la restricción técnica del PDF. Es más rápido que concatenar con '+'.
+        // Usamos StringBuilder para armar la línea de texto que va a quedar en el historial de la cuenta.
         StringBuilder log = new StringBuilder();
         log.append("[").append(t.getFecha_hora().format(FORMATO_FECHA)).append("] ");
         log.append(tipo).append(": $").append(String.format("%.2f", monto));
