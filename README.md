@@ -7,3 +7,4 @@
 ## Descripción
 Simulador de Cajero Automático (ATM) desarrollado en Java. El sistema gestiona operaciones bancarias secuenciales con validaciones robustas.
 ## diagrama de clases
+![Diagrama de Clases](./diagrama.png)
