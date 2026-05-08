@@ -15,13 +15,7 @@ public class CuentaBancaria {
         this.historialTransacciones = new ArrayList<>();
     }
 
-    public String getNumeroCuenta() {
-        return numeroCuenta;
-    }
-
-    public void setNumeroCuenta(String numeroCuenta) {
-        this.numeroCuenta = numeroCuenta;
-    }
+    
 
     public double getSaldo() {
         return saldo;
@@ -46,14 +40,15 @@ public class CuentaBancaria {
     public void setActiva(boolean activa) {
         this.activa = activa;
     }
+    public String getNumeroCuenta() {
+        return numeroCuenta;
+    }
 
     public ArrayList<String> getHistorialTransacciones() {
         return historialTransacciones;
     }
-
-    public void setHistorialTransacciones(ArrayList<String> historialTransacciones) {
-        this.historialTransacciones = historialTransacciones;
-    }
-    
 }
+
+    
+
     
